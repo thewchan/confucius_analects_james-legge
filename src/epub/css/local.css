@@ -4,3 +4,21 @@
 abbr.era{
     font-variant: all-small-caps;
 }
+
+footer{
+    margin-top: 1em;
+    text-align: right;
+}
+
+footer p{
+    padding-right: 2em;
+    text-indent: 2em;
+}
+
+footer p:nth-child(2){
+    font-variant: small-caps;
+}
+
+[epub|type~="z3998:signature"]{
+    font-variant: small-caps;
+}
